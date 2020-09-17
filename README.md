@@ -1,9 +1,9 @@
 # Hospital-Management-System
-It is developed using J2SE, JDBC and MySQL
-How it works:
-1)Clone it on your pc.
-2)Start your MySql server.If you don't have any server pls download it.
-3)Run .jar application on your system.
+It is developed using J2SE, JDBC and MySQL.</br>
+How it works:</br>
+1)Clone it on your pc.</br>
+2)Start your MySql server.If you don't have any server pls download it.</br>
+3)Run .jar application on your system.</br>
 ![](HSP_images/1.png)
 ![](HSP_images/2.png)
 ![](HSP_images/3.png)
