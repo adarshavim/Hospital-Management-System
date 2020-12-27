@@ -106,30 +106,36 @@ public class Activity_5 extends javax.swing.JFrame {
                 formWindowActivated(evt);
             }
         });
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setText("Patient No.");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 208, 35));
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(60, 90, 208, 35);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Name");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 208, 31));
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(60, 130, 208, 31);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setText("Age");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 208, 34));
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(60, 170, 208, 34);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setText("Address");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 202, 30));
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(60, 220, 202, 30);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setText("Charged Under Doctor");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, -1, 31));
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(60, 260, 202, 31);
 
         txt_patientno.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txt_patientno, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, 134, 34));
+        getContentPane().add(txt_patientno);
+        txt_patientno.setBounds(280, 90, 134, 34);
 
         txt_patientname.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txt_patientname.addActionListener(new java.awt.event.ActionListener() {
@@ -137,10 +143,12 @@ public class Activity_5 extends javax.swing.JFrame {
                 txt_patientnameActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_patientname, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 130, 298, 34));
+        getContentPane().add(txt_patientname);
+        txt_patientname.setBounds(280, 130, 298, 34);
 
         txt_patientage.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txt_patientage, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, 80, 34));
+        getContentPane().add(txt_patientage);
+        txt_patientage.setBounds(280, 170, 80, 34);
 
         txt_patientaddress.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txt_patientaddress.addActionListener(new java.awt.event.ActionListener() {
@@ -148,38 +156,47 @@ public class Activity_5 extends javax.swing.JFrame {
                 txt_patientaddressActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_patientaddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, 442, 34));
+        getContentPane().add(txt_patientaddress);
+        txt_patientaddress.setBounds(280, 230, 442, 34);
 
         txt_patientdoctor.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txt_patientdoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, 306, 34));
+        getContentPane().add(txt_patientdoctor);
+        txt_patientdoctor.setBounds(280, 270, 306, 34);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setText("Credit Amount");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 420, 208, 35));
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(60, 420, 208, 35);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel7.setText("Debit Amount");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 460, 208, 35));
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(60, 460, 208, 35);
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel8.setText("Remaining Bal.");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 500, 208, 35));
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(60, 500, 208, 35);
 
         txt_credit.setText("0");
         txt_credit.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txt_credit, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 420, 156, 35));
+        getContentPane().add(txt_credit);
+        txt_credit.setBounds(280, 420, 156, 35);
 
         txt_debit.setText("0");
         txt_debit.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txt_debit, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 460, 156, 35));
+        getContentPane().add(txt_debit);
+        txt_debit.setBounds(280, 460, 156, 35);
 
         txt_remaining.setText("0");
         txt_remaining.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txt_remaining, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 500, 156, 35));
+        getContentPane().add(txt_remaining);
+        txt_remaining.setBounds(280, 500, 156, 35);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel9.setText("Date");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, 202, 31));
+        getContentPane().add(jLabel9);
+        jLabel9.setBounds(60, 330, 202, 31);
 
         buttonGroup1.add(optadmit);
         optadmit.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -189,7 +206,8 @@ public class Activity_5 extends javax.swing.JFrame {
                 optadmitItemStateChanged(evt);
             }
         });
-        getContentPane().add(optadmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 140, -1, -1));
+        getContentPane().add(optadmit);
+        optadmit.setBounds(860, 140, 93, 25);
 
         buttonGroup1.add(optnotadmit);
         optnotadmit.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -200,26 +218,31 @@ public class Activity_5 extends javax.swing.JFrame {
                 optnotadmitItemStateChanged(evt);
             }
         });
-        getContentPane().add(optnotadmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 170, -1, -1));
+        getContentPane().add(optnotadmit);
+        optnotadmit.setBounds(860, 170, 123, 25);
 
         txt_bedno.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txt_bedno.setEnabled(false);
-        getContentPane().add(txt_bedno, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 340, 146, 46));
+        getContentPane().add(txt_bedno);
+        txt_bedno.setBounds(1020, 340, 146, 46);
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel20.setText("Bed no.");
-        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 340, 139, 46));
+        getContentPane().add(jLabel20);
+        jLabel20.setBounds(860, 340, 139, 46);
 
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel19.setText("Admission Date");
-        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 250, -1, -1));
+        getContentPane().add(jLabel19);
+        jLabel19.setBounds(850, 250, 139, 22);
 
         txtarea_medicdetails.setColumns(20);
         txtarea_medicdetails.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
         txtarea_medicdetails.setRows(5);
         jScrollPane1.setViewportView(txtarea_medicdetails);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 440, 400, 230));
+        getContentPane().add(jScrollPane1);
+        jScrollPane1.setBounds(680, 440, 400, 230);
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 255));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -272,7 +295,8 @@ public class Activity_5 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1594, -1));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 1594, 78);
 
         jPanel2.setBackground(new java.awt.Color(51, 51, 51));
         jPanel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -332,36 +356,45 @@ public class Activity_5 extends javax.swing.JFrame {
                 .addGap(23, 23, 23))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 770, 1594, -1));
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(0, 770, 1594, 98);
 
         txtcontacts.setText("");
         txtcontacts.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txtcontacts, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 560, 248, 43));
+        getContentPane().add(txtcontacts);
+        txtcontacts.setBounds(280, 560, 248, 43);
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel11.setText("Contact Details");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 560, 208, 43));
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(60, 560, 208, 43);
 
         txtyyyy.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txtyyyy, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 370, 90, 30));
+        getContentPane().add(txtyyyy);
+        txtyyyy.setBounds(400, 370, 90, 30);
 
         txtdd.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txtdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 370, 50, 30));
+        getContentPane().add(txtdd);
+        txtdd.setBounds(280, 370, 50, 30);
 
         txtmm.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        getContentPane().add(txtmm, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 370, 50, 30));
+        getContentPane().add(txtmm);
+        txtmm.setBounds(340, 370, 50, 30);
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel12.setText("MM");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 330, 40, 30));
+        getContentPane().add(jLabel12);
+        jLabel12.setBounds(340, 330, 40, 30);
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel13.setText("YYYY");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 330, 80, 30));
+        getContentPane().add(jLabel13);
+        jLabel13.setBounds(400, 330, 80, 30);
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel14.setText("DD");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 330, 40, 30));
+        getContentPane().add(jLabel14);
+        jLabel14.setBounds(280, 330, 40, 30);
 
         txtadmsnyyyy.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txtadmsnyyyy.setEnabled(false);
@@ -370,36 +403,44 @@ public class Activity_5 extends javax.swing.JFrame {
                 txtadmsnyyyyActionPerformed(evt);
             }
         });
-        getContentPane().add(txtadmsnyyyy, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 280, 90, 30));
+        getContentPane().add(txtadmsnyyyy);
+        txtadmsnyyyy.setBounds(1130, 280, 90, 30);
 
         txtadmsndd.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txtadmsndd.setEnabled(false);
-        getContentPane().add(txtadmsndd, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 280, 50, 30));
+        getContentPane().add(txtadmsndd);
+        txtadmsndd.setBounds(1010, 280, 50, 30);
 
         txtadmsnmm.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         txtadmsnmm.setEnabled(false);
-        getContentPane().add(txtadmsnmm, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 280, 50, 30));
+        getContentPane().add(txtadmsnmm);
+        txtadmsnmm.setBounds(1070, 280, 50, 30);
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel15.setText("MM");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 240, 40, 30));
+        getContentPane().add(jLabel15);
+        jLabel15.setBounds(1070, 240, 40, 30);
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel16.setText("YYYY");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 240, 80, 30));
+        getContentPane().add(jLabel16);
+        jLabel16.setBounds(1130, 240, 80, 30);
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel17.setText("DD");
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 240, 40, 30));
+        getContentPane().add(jLabel17);
+        jLabel17.setBounds(1010, 240, 40, 30);
 
         lblcount.setBackground(new java.awt.Color(0, 0, 153));
         lblcount.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         lblcount.setForeground(new java.awt.Color(255, 0, 0));
-        getContentPane().add(lblcount, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 480, 160, 140));
+        getContentPane().add(lblcount);
+        lblcount.setBounds(1190, 480, 160, 140);
 
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel18.setText("Total registration done  today");
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 430, 280, 40));
+        getContentPane().add(jLabel18);
+        jLabel18.setBounds(1120, 430, 280, 40);
 
         jMenuBar2.setToolTipText("Menu Bar");
         jMenuBar2.setOpaque(false);

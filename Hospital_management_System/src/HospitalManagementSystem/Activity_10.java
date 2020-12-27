@@ -79,7 +79,6 @@ String path="";
                 formMouseMoved(evt);
             }
         });
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(0, 204, 204));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -184,23 +183,17 @@ String path="";
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1590, -1));
-
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Name");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 133, 127, 37));
 
         lblimage.setText("img");
         lblimage.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        getContentPane().add(lblimage, new org.netbeans.lib.awtextra.AbsoluteConstraints(1200, 160, 180, 230));
 
         txt_name.setEditable(false);
         txt_name.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        getContentPane().add(txt_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(293, 133, 228, 37));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setText("Specialisation");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 200, 127, 37));
 
         txt_specialization.setEditable(false);
         txt_specialization.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -209,27 +202,21 @@ String path="";
                 txt_specializationActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_specialization, new org.netbeans.lib.awtextra.AbsoluteConstraints(293, 198, 343, 37));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setText("Address");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 269, 127, 37));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setText("Date of joining");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 340, 157, 37));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel7.setText("Weekend dates");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, -1, 37));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel8.setText("Salary");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 466, 127, 37));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel9.setText("Contacts");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(118, 519, 127, 37));
 
         txt_address.setEditable(false);
         txt_address.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -238,7 +225,6 @@ String path="";
                 txt_addressActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_address, new org.netbeans.lib.awtextra.AbsoluteConstraints(293, 265, 343, 37));
 
         txt_dateofjoining.setEditable(false);
         txt_dateofjoining.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -247,7 +233,6 @@ String path="";
                 txt_dateofjoiningActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_dateofjoining, new org.netbeans.lib.awtextra.AbsoluteConstraints(293, 341, 161, 37));
 
         txt_salary.setEditable(false);
         txt_salary.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -256,7 +241,6 @@ String path="";
                 txt_salaryActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_salary, new org.netbeans.lib.awtextra.AbsoluteConstraints(293, 452, 189, 37));
 
         txtcontacts.setEditable(false);
         txtcontacts.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -265,15 +249,12 @@ String path="";
                 txtcontactsActionPerformed(evt);
             }
         });
-        getContentPane().add(txtcontacts, new org.netbeans.lib.awtextra.AbsoluteConstraints(293, 520, 304, 37));
 
         checksun.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checksun.setText("Sunday");
-        getContentPane().add(checksun, new org.netbeans.lib.awtextra.AbsoluteConstraints(296, 403, -1, -1));
 
         checkmon.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkmon.setText("Monday");
-        getContentPane().add(checkmon, new org.netbeans.lib.awtextra.AbsoluteConstraints(391, 403, -1, -1));
 
         checkwed.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkwed.setText("Wednesday");
@@ -282,23 +263,18 @@ String path="";
                 checkwedActionPerformed(evt);
             }
         });
-        getContentPane().add(checkwed, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 403, -1, -1));
 
         checktue.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checktue.setText("Tuesday");
-        getContentPane().add(checktue, new org.netbeans.lib.awtextra.AbsoluteConstraints(494, 403, -1, -1));
 
         checkfri.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkfri.setText("Friday");
-        getContentPane().add(checkfri, new org.netbeans.lib.awtextra.AbsoluteConstraints(863, 403, -1, -1));
 
         checkthu.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkthu.setText("Thursday");
-        getContentPane().add(checkthu, new org.netbeans.lib.awtextra.AbsoluteConstraints(746, 403, -1, -1));
 
         checksat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checksat.setText("Saturday");
-        getContentPane().add(checksat, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 403, -1, -1));
 
         jButton2.setVisible(false);
         jButton2.setText("Upload image");
@@ -307,7 +283,6 @@ String path="";
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1280, 410, -1, -1));
 
         btnadd.setVisible(false);
         btnadd.setBackground(new java.awt.Color(0, 0, 0));
@@ -324,7 +299,6 @@ String path="";
                 btnaddActionPerformed(evt);
             }
         });
-        getContentPane().add(btnadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 750, 100, 60));
 
         jInternalFrame1.setVisible(false);
 
@@ -334,14 +308,12 @@ String path="";
         jInternalFrame1.getContentPane().setLayout(jInternalFrame1Layout);
         jInternalFrame1Layout.setHorizontalGroup(
             jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 584, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
         );
         jInternalFrame1Layout.setVerticalGroup(
             jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 294, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
         );
-
-        getContentPane().add(jInternalFrame1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 590, 600, 330));
 
         btnsearch.setBackground(new java.awt.Color(0, 0, 0));
         btnsearch.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -357,7 +329,6 @@ String path="";
                 btnsearchActionPerformed(evt);
             }
         });
-        getContentPane().add(btnsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 750, 110, 60));
 
         btnsave.setVisible(false);
         btnsave.setBackground(new java.awt.Color(0, 0, 0));
@@ -374,12 +345,152 @@ String path="";
                 btnsaveActionPerformed(evt);
             }
         });
-        getContentPane().add(btnsave, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 750, 90, 60));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setText("EmployeeID");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 140, 120, 30));
-        getContentPane().add(txt_empID, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 130, 110, 40));
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(118, 118, 118)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txt_name, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txt_specialization, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txt_address, javax.swing.GroupLayout.PREFERRED_SIZE, 343, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txt_dateofjoining, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(14, 14, 14)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addComponent(txt_empID, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(300, 300, 300)
+                .addComponent(lblimage, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(120, 120, 120)
+                .addComponent(jLabel7)
+                .addGap(36, 36, 36)
+                .addComponent(checksun)
+                .addGap(0, 0, 0)
+                .addComponent(checkmon)
+                .addGap(4, 4, 4)
+                .addComponent(checktue)
+                .addGap(3, 3, 3)
+                .addComponent(checkwed)
+                .addGap(13, 13, 13)
+                .addComponent(checkthu)
+                .addGap(4, 4, 4)
+                .addComponent(checkfri)
+                .addGap(4, 4, 4)
+                .addComponent(checksat)
+                .addGap(221, 221, 221)
+                .addComponent(jButton2))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(118, 118, 118)
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(48, 48, 48)
+                .addComponent(txt_salary, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(118, 118, 118)
+                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(48, 48, 48)
+                .addComponent(txtcontacts, javax.swing.GroupLayout.PREFERRED_SIZE, 304, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(970, 970, 970)
+                .addComponent(jInternalFrame1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(360, 360, 360)
+                .addComponent(btnsave, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(80, 80, 80)
+                .addComponent(btnsearch, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(80, 80, 80)
+                .addComponent(btnadd, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(32, 32, 32)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(34, 34, 34)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(txt_name, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(txt_specialization, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
+                        .addComponent(txt_address, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(39, 39, 39)
+                        .addComponent(txt_dateofjoining, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_empID, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addComponent(lblimage, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(10, 10, 10)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(checksun))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(checkmon))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(checktue))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(checkwed))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(checkthu))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(checkfri))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(checksat))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(jButton2)))
+                .addGap(15, 15, 15)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_salary, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(16, 16, 16)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(txtcontacts, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(33, 33, 33)
+                .addComponent(jInternalFrame1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(160, 160, 160)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnsave, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnsearch, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnadd, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -531,7 +642,19 @@ public void clear(){
                         checksat.setSelected(true);
                    txt_salary.setText(""+ob.rs.getString("salary"));
                    txtcontacts.setText(""+ob.rs.getString("contacts"));
-                  ImageIcon img=new ImageIcon(ob.rs.getString("img"));
+                   String p=ob.rs.getString("img");
+                   int n=p.length();
+                   String np="";
+                   for(int i=0;i<n;i++){
+                       if(p.charAt(i)==':'){
+                           np+=":\\";
+                       }
+                       else{
+                           np+=p.charAt(i);
+                       }
+                   }
+                   
+                  ImageIcon img=new ImageIcon(np);
                   lblimage.setIcon(img);
                   designation=ob.rs.getString("designation");
                 }

@@ -77,15 +77,17 @@ String path="";
                 formMouseMoved(evt);
             }
         });
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout(null);
 
         checksun.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checksun.setText("Sunday");
-        getContentPane().add(checksun, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 420, -1, -1));
+        getContentPane().add(checksun);
+        checksun.setBounds(360, 420, 95, 31);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel7.setText("Weekend dates");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 420, -1, 37));
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(140, 420, 140, 37);
 
         txt_dateofjoin.setEditable(false);
         txt_dateofjoin.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -94,19 +96,23 @@ String path="";
                 txt_dateofjoinActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_dateofjoin, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 340, 161, 37));
+        getContentPane().add(txt_dateofjoin);
+        txt_dateofjoin.setBounds(360, 340, 161, 37);
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel8.setText("Salary");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 470, 127, 37));
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(150, 470, 127, 37);
 
         txt_name.setEditable(false);
         txt_name.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        getContentPane().add(txt_name, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, 228, 37));
+        getContentPane().add(txt_name);
+        txt_name.setBounds(360, 130, 228, 37);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel9.setText("Contacts");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 530, 127, 37));
+        getContentPane().add(jLabel9);
+        jLabel9.setBounds(160, 530, 127, 37);
 
         txtcontacts.setEditable(false);
         txtcontacts.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -115,11 +121,13 @@ String path="";
                 txtcontactsActionPerformed(evt);
             }
         });
-        getContentPane().add(txtcontacts, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 530, 304, 37));
+        getContentPane().add(txtcontacts);
+        txtcontacts.setBounds(360, 530, 304, 37);
 
         checksat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checksat.setText("Saturday");
-        getContentPane().add(checksat, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 420, -1, -1));
+        getContentPane().add(checksat);
+        checksat.setBounds(1050, 420, 109, 31);
 
         checkmon.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkmon.setText("Monday");
@@ -128,7 +136,8 @@ String path="";
                 checkmonActionPerformed(evt);
             }
         });
-        getContentPane().add(checkmon, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 420, -1, -1));
+        getContentPane().add(checkmon);
+        checkmon.setBounds(470, 420, 99, 31);
 
         checktue.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checktue.setText("Tuesday");
@@ -137,11 +146,13 @@ String path="";
                 checktueActionPerformed(evt);
             }
         });
-        getContentPane().add(checktue, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 420, -1, -1));
+        getContentPane().add(checktue);
+        checktue.setBounds(600, 420, 103, 31);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setText("Section");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 200, 127, 37));
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(150, 200, 127, 37);
 
         txt_salary.setEditable(false);
         txt_salary.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -150,23 +161,28 @@ String path="";
                 txt_salaryActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_salary, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 470, 189, 37));
+        getContentPane().add(txt_salary);
+        txt_salary.setBounds(360, 470, 189, 37);
 
         checkfri.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkfri.setText("Friday");
-        getContentPane().add(checkfri, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 420, -1, -1));
+        getContentPane().add(checkfri);
+        checkfri.setBounds(960, 420, 83, 31);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Name");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 130, 127, 37));
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(150, 130, 127, 37);
 
         checkthu.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkthu.setText("Thursday");
-        getContentPane().add(checkthu, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 420, -1, -1));
+        getContentPane().add(checkthu);
+        checkthu.setBounds(850, 420, 113, 31);
 
         lblimage.setText("img");
         lblimage.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        getContentPane().add(lblimage, new org.netbeans.lib.awtextra.AbsoluteConstraints(1200, 130, 200, 230));
+        getContentPane().add(lblimage);
+        lblimage.setBounds(1200, 130, 200, 230);
 
         checkwed.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         checkwed.setText("Wednesday");
@@ -175,11 +191,13 @@ String path="";
                 checkwedActionPerformed(evt);
             }
         });
-        getContentPane().add(checkwed, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 420, -1, -1));
+        getContentPane().add(checkwed);
+        checkwed.setBounds(700, 420, 133, 31);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setText("Date of joining");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 340, 157, 37));
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(120, 340, 157, 37);
 
         jButton2.setVisible(false);
         jButton2.setText("uploadimage");
@@ -188,7 +206,8 @@ String path="";
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 390, -1, -1));
+        getContentPane().add(jButton2);
+        jButton2.setBounds(1270, 390, 105, 25);
 
         txt_specialization.setEditable(false);
         txt_specialization.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -197,11 +216,13 @@ String path="";
                 txt_specializationActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_specialization, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 200, 343, 37));
+        getContentPane().add(txt_specialization);
+        txt_specialization.setBounds(360, 200, 343, 37);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setText("Address");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, 127, 37));
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(150, 270, 127, 37);
 
         txt_address.setEditable(false);
         txt_address.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -210,7 +231,8 @@ String path="";
                 txt_addressActionPerformed(evt);
             }
         });
-        getContentPane().add(txt_address, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 343, 37));
+        getContentPane().add(txt_address);
+        txt_address.setBounds(360, 270, 343, 37);
 
         jPanel1.setBackground(new java.awt.Color(0, 204, 204));
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -318,7 +340,8 @@ String path="";
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1594, -1));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 1594, 100);
 
         jInternalFrame1.setVisible(false);
 
@@ -328,19 +351,22 @@ String path="";
         jInternalFrame1.getContentPane().setLayout(jInternalFrame1Layout);
         jInternalFrame1Layout.setHorizontalGroup(
             jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 544, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
         );
         jInternalFrame1Layout.setVerticalGroup(
             jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 284, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
         );
 
-        getContentPane().add(jInternalFrame1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 570, 560, 320));
+        getContentPane().add(jInternalFrame1);
+        jInternalFrame1.setBounds(1010, 570, 0, 0);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setText("EmployeeID");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 140, 120, 30));
-        getContentPane().add(txt_empID, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 130, 110, 40));
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(650, 140, 120, 30);
+        getContentPane().add(txt_empID);
+        txt_empID.setBounds(790, 130, 110, 40);
 
         btnsave.setVisible(false);
         btnsave.setBackground(new java.awt.Color(0, 0, 0));
@@ -357,7 +383,8 @@ String path="";
                 btnsaveActionPerformed(evt);
             }
         });
-        getContentPane().add(btnsave, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 760, 100, 50));
+        getContentPane().add(btnsave);
+        btnsave.setBounds(430, 760, 100, 50);
 
         btnsearch.setBackground(new java.awt.Color(0, 0, 0));
         btnsearch.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -373,7 +400,8 @@ String path="";
                 btnsearchActionPerformed(evt);
             }
         });
-        getContentPane().add(btnsearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 760, 110, 50));
+        getContentPane().add(btnsearch);
+        btnsearch.setBounds(290, 760, 110, 50);
 
         btnadd.setVisible(false);
         btnadd.setBackground(new java.awt.Color(0, 0, 0));
@@ -390,7 +418,8 @@ String path="";
                 btnaddActionPerformed(evt);
             }
         });
-        getContentPane().add(btnadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 760, 100, 50));
+        getContentPane().add(btnadd);
+        btnadd.setBounds(560, 760, 100, 50);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -673,7 +702,19 @@ public void clear(){
                     checksat.setSelected(true);
                     txt_salary.setText(""+ob.rs.getString("salary"));
                     txtcontacts.setText(""+ob.rs.getString("contacts"));
-                    ImageIcon img=new ImageIcon(ob.rs.getString("img"));
+                        String p=ob.rs.getString("img");
+                   int n=p.length();
+                   String np="";
+                   for(int i=0;i<n;i++){
+                       if(p.charAt(i)==':'){
+                           np+=":\\";
+                       }
+                       else{
+                           np+=p.charAt(i);
+                       }
+                   }
+                   
+                    ImageIcon img=new ImageIcon(ob.rs.getString(np));
                     lblimage.setIcon(img);
                     designation=ob.rs.getString("designation");
                 }

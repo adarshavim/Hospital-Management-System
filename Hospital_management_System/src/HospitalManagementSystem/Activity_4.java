@@ -78,7 +78,7 @@ static int flag=0;
                 formWindowActivated(evt);
             }
         });
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout(null);
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 255, 255), 6));
@@ -114,7 +114,8 @@ static int flag=0;
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1597, -1));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 1597, 101);
 
         jPanel2.setBackground(new java.awt.Color(51, 51, 255));
         jPanel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -221,7 +222,8 @@ static int flag=0;
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton1, jButton2, jButton3});
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 99, -1, 800));
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(0, 99, 383, 800);
 
         btn1.setVisible(false);
         btn1.setBackground(new java.awt.Color(0, 0, 153));
@@ -237,7 +239,8 @@ static int flag=0;
                 btn1ActionPerformed(evt);
             }
         });
-        getContentPane().add(btn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 380, 390, 130));
+        getContentPane().add(btn1);
+        btn1.setBounds(1050, 380, 390, 130);
 
         btn2.setVisible(false);
         btn2.setBackground(new java.awt.Color(0, 0, 153));
@@ -253,7 +256,8 @@ static int flag=0;
                 btn2ActionPerformed(evt);
             }
         });
-        getContentPane().add(btn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 380, 370, 130));
+        getContentPane().add(btn2);
+        btn2.setBounds(510, 380, 370, 130);
 
         btn3.setVisible(false);
         btn3.setBackground(new java.awt.Color(0, 0, 153));
@@ -269,7 +273,8 @@ static int flag=0;
                 btn3ActionPerformed(evt);
             }
         });
-        getContentPane().add(btn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 190, 390, 130));
+        getContentPane().add(btn3);
+        btn3.setBounds(1040, 190, 390, 130);
 
         btn4.setVisible(false);
         btn4.setBackground(new java.awt.Color(0, 0, 153));
@@ -285,7 +290,8 @@ static int flag=0;
                 btn4ActionPerformed(evt);
             }
         });
-        getContentPane().add(btn4, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 200, 362, 124));
+        getContentPane().add(btn4);
+        btn4.setBounds(510, 200, 362, 124);
 
         btnpatient.setBackground(new java.awt.Color(0, 0, 153));
         btnpatient.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -300,7 +306,8 @@ static int flag=0;
                 btnpatientActionPerformed(evt);
             }
         });
-        getContentPane().add(btnpatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 630, 160, 120));
+        getContentPane().add(btnpatient);
+        btnpatient.setBounds(450, 630, 160, 120);
 
         btndoctor.setBackground(new java.awt.Color(0, 0, 153));
         btndoctor.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -315,7 +322,8 @@ static int flag=0;
                 btndoctorActionPerformed(evt);
             }
         });
-        getContentPane().add(btndoctor, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 630, 160, 120));
+        getContentPane().add(btndoctor);
+        btndoctor.setBounds(650, 630, 160, 120);
 
         btnnurse.setBackground(new java.awt.Color(0, 0, 153));
         btnnurse.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -330,7 +338,8 @@ static int flag=0;
                 btnnurseActionPerformed(evt);
             }
         });
-        getContentPane().add(btnnurse, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 630, 170, 120));
+        getContentPane().add(btnnurse);
+        btnnurse.setBounds(850, 630, 170, 120);
 
         btncomp.setBackground(new java.awt.Color(0, 0, 153));
         btncomp.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -345,7 +354,8 @@ static int flag=0;
                 btncompActionPerformed(evt);
             }
         });
-        getContentPane().add(btncomp, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 630, 160, 120));
+        getContentPane().add(btncomp);
+        btncomp.setBounds(1050, 630, 160, 120);
 
         btngaurds.setBackground(new java.awt.Color(0, 0, 153));
         btngaurds.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -360,32 +370,38 @@ static int flag=0;
                 btngaurdsActionPerformed(evt);
             }
         });
-        getContentPane().add(btngaurds, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 630, 160, 120));
+        getContentPane().add(btngaurds);
+        btngaurds.setBounds(1250, 630, 160, 120);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 0, 0));
         jLabel1.setText("Patients");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 590, 140, 30));
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(450, 590, 140, 30);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(204, 0, 0));
         jLabel3.setText("Doctors ");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 590, 150, 30));
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(650, 590, 150, 30);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(204, 0, 0));
         jLabel4.setText("Nurses ");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 590, 160, 30));
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(850, 590, 160, 30);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(204, 0, 0));
         jLabel5.setText(" compounders ");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 590, 140, 30));
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(1060, 590, 140, 30);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(204, 0, 0));
         jLabel6.setText("gaurds");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1250, 590, 140, 30));
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(1250, 590, 140, 30);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
