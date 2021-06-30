@@ -15,12 +15,18 @@ import javax.swing.JOptionPane;
  */
 public class establishconnection {
     static final String DB_URL = "jdbc:mysql://localhost/HOSPITAL_DB";
-   static final String USER = "root"; 
-   static final String PASS = "";
+   static String USER = null; 
+   static  String PASS = null;
    Connection conn = null; 
    Statement stmt = null; 
    ResultSet rs=null;
    int flag=0;
+   public establishconnection(){
+       DbDetails data=new DbDetails();
+       String details[]=data.getDetails();
+       USER=details[0];;
+       PASS=details[1];
+   }
    public  ResultSet execute(String sql){
              int flag=0;
    try{

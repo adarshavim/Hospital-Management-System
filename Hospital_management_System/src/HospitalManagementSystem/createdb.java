@@ -20,9 +20,14 @@ public class createdb {
    static final String DB_URL = "jdbc:mysql://localhost/";
 
    //  Database credentials
-   static final String USER = "root";
-   static final String PASS = "";
-   
+   static String USER = "";
+   static String PASS = "";
+   public createdb(){
+        DbDetails data=new DbDetails();
+       String details[]=data.getDetails();
+       USER=details[0];;
+       PASS=details[1];
+   }
    public  void createDB() {
    Connection conn = null;
    Statement stmt = null;

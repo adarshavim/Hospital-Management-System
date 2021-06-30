@@ -1,6 +1,7 @@
 package HospitalManagementSystem;
 
 import java.awt.Color;
+import java.io.File;
 import java.lang.*;
 import javax.swing.*;
 import javax.swing.JOptionPane;
@@ -14,7 +15,6 @@ public class Main_Activity extends javax.swing.JFrame {
      
     public Main_Activity() {
         initComponents();
-        
     }
 
     /**
@@ -137,7 +137,14 @@ public class Main_Activity extends javax.swing.JFrame {
       
         ImageIcon img3=new ImageIcon("hosicons\\20.jpg");
        lblhosname.setIcon(img3);
-        t2.start();
+       File myObj = new File("dbDetails");
+            if (myObj.exists()) {
+                System.out.println("File check OK");
+                t2.start();
+            } else {
+                new Activity_14().setVisible(true);
+            }
+        
        
     }//GEN-LAST:event_formWindowActivated
 

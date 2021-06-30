@@ -115,7 +115,7 @@ static int flag=0;
         );
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 1597, 101);
+        jPanel1.setBounds(0, 0, 1597, 107);
 
         jPanel2.setBackground(new java.awt.Color(51, 51, 255));
         jPanel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -223,7 +223,7 @@ static int flag=0;
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton1, jButton2, jButton3});
 
         getContentPane().add(jPanel2);
-        jPanel2.setBounds(0, 99, 383, 800);
+        jPanel2.setBounds(0, 99, 389, 800);
 
         btn1.setVisible(false);
         btn1.setBackground(new java.awt.Color(0, 0, 153));
